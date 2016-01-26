@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EzTunez</string>
+    <string name="inital_Time">0 min, 0 sec</string>
+    <string name="start">start</string>
+    <string name="action_settings">start</string>
+    <string name="splashimage">Splash Image</string>
+    <string name="tuner">Tuner</string>
+    <string name="equalizer">Equalizer</string>
+    <string name="startslider">Start</string>
+    <string name="stopslider">Stop</string>
+    <string name="FreemanSong">Freeman Song</string>
+    <string name="CaliforniaStateFunk">California State Funk</string>
+    <string name="SwampStomp">Swamp Stomp</string>
+    <string name="KannonsKlaim">Kannons Klaim</string>
+    <string name="Dominator">Dominator</string>
+    <string name="rewindbtn">Rewind Button</string>
+    <string name="playbtn">Play Button</string>
+    <string name="pausebtn">Pause Button</string>
+    <string name="forwardbtn">Forward Button</string>
+    <string name="tone">Tone</string>
+    <string name="guitar">Guitar</string>
+    <string name="play1">Play1</string>
+    <string name="play2">Play2</string>
+    <string name="play3">Play3</string>
+    <string name="play4">Play4</string>
+    <string name="play5">Play5</string>
+    <string name="play6">Play6</string>
+    <string name="gplay1">GPlay1</string>
+    <string name="gplay2">GPlay2</string>
+    <string name="gplay3">GPlay3</string>
+    <string name="gplay4">GPlay4</string>
+    <string name="gplay5">GPlay5</string>
+    <string name="gplay6">GPlay6</string>
+    
+    <!-- <string name="start">start</string> -->
+
+</resources>

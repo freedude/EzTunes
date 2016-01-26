@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="600dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal" >
+
+        <Spinner
+            android:id="@+id/presets"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="370dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/tone"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/guitar"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Spinner
+                android:id="@+id/note1"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/play1"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:onClick="play"
+                android:src="@android:drawable/ic_media_play"
+                android:contentDescription="@string/play1" />
+
+            <ImageButton
+                android:id="@+id/gp1"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:src="@android:drawable/ic_media_play"
+                android:contentDescription="@string/gplay1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Spinner
+                android:id="@+id/note2"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/play2"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"         
+                android:layout_marginLeft="24dp"
+                android:onClick="play"
+                android:src="@android:drawable/ic_media_play" 
+                android:contentDescription="@string/play2"/>
+
+            <ImageButton
+                android:id="@+id/gp2"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:src="@android:drawable/ic_media_play" 
+                android:contentDescription="@string/gplay2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Spinner
+                android:id="@+id/note3"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/play3"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginLeft="24dp"
+                android:onClick="play"
+                android:src="@android:drawable/ic_media_play"
+                android:contentDescription="@string/play3" />
+
+            <ImageButton
+                android:id="@+id/gp3"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:src="@android:drawable/ic_media_play"
+                android:contentDescription="@string/gplay3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Spinner
+                android:id="@+id/note4"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/play4"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginLeft="24dp"
+                android:onClick="play"
+                android:src="@android:drawable/ic_media_play"
+                android:contentDescription="@string/play4" />
+
+            <ImageButton
+                android:id="@+id/gp4"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:src="@android:drawable/ic_media_play"
+                android:contentDescription="@string/gplay4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Spinner
+                android:id="@+id/note5"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/play5"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginLeft="24dp"
+                android:onClick="play"
+                android:src="@android:drawable/ic_media_play" 
+                android:contentDescription="@string/play5"/>
+
+            <ImageButton
+                android:id="@+id/gp5"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:src="@android:drawable/ic_media_play" 
+                android:contentDescription="@string/gplay5"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Spinner
+                android:id="@+id/note6"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/play6"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginLeft="24dp"
+                android:onClick="play"
+                android:src="@android:drawable/ic_media_play" 
+                android:contentDescription="@string/play6"/>
+
+            <ImageButton
+                android:id="@+id/gp6"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:src="@android:drawable/ic_media_play"
+                android:contentDescription="@string/gplay6" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

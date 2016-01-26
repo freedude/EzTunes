@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/trck1btn"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="a"
+                android:text="@string/FreemanSong" />
+
+            <Button
+                android:id="@+id/trck2btn"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="b"
+                android:text="@string/CaliforniaStateFunk" />
+
+            <Button
+                android:id="@+id/trck3btn"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="c"
+                android:text="@string/SwampStomp" />
+
+            <Button
+                android:id="@+id/trck4btn"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="d"
+                android:text="@string/KannonsKlaim" />
+
+            <Button
+                android:id="@+id/trck5btn"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="e"
+                android:text="@string/Dominator" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
